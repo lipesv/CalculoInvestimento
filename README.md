@@ -15,7 +15,7 @@ Esta solução consiste em quatro projetos principais:
 ### Projetos
 
 1. **API (CalculoInvestimento.API)**
-   - **Descrição**: Este projeto é uma API web que expõe endpoints para calcular os valores de um investimento em CDB. Ele recebe as entradas do usuário, processa os dados utilizando os serviços de cálculo e retorna os resultados.
+   - **Descrição**: Este projeto é uma API web para calcular os valores de um investimento em CDB. Ele recebe as entradas do usuário, processa os dados utilizando os serviços de cálculo e retorna os resultados.
    - **Principais Componentes**:
      - **Controllers**: Contém controladores que lidam com as requisições HTTP.
        - `CdbController`: Controlador principal que processa as solicitações de cálculo de CDB.
