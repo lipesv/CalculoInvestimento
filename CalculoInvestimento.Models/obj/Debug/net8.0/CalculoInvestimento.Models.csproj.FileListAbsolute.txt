@@ -1,0 +1,11 @@
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\bin\Debug\net8.0\CalculoInvestimento.Models.deps.json
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\bin\Debug\net8.0\CalculoInvestimento.Models.dll
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\bin\Debug\net8.0\CalculoInvestimento.Models.pdb
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\obj\Debug\net8.0\CalculoInvestimento.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\obj\Debug\net8.0\CalculoInvestimento.Models.AssemblyInfoInputs.cache
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\obj\Debug\net8.0\CalculoInvestimento.Models.AssemblyInfo.cs
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\obj\Debug\net8.0\CalculoInvestimento.Models.csproj.CoreCompileInputs.cache
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\obj\Debug\net8.0\CalculoInvestimento.Models.dll
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\obj\Debug\net8.0\refint\CalculoInvestimento.Models.dll
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\obj\Debug\net8.0\CalculoInvestimento.Models.pdb
+D:\Projetos\CalculoInvestimento\CalculoInvestimento.Models\obj\Debug\net8.0\ref\CalculoInvestimento.Models.dll

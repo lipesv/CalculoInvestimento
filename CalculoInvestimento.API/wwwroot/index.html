@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo CDB</title>
+</head>
+<body>
+
+    <h1>Cálculo CDB</h1>
+
+    <label for="valorInicial">Valor Inicial:</label>
+    <input type="number" id="valorInicial">
+
+    <br />
+
+    <label for="prazoMeses">Prazo (meses):</label>
+    <input type="number" id="prazoMeses">
+    <br />
+
+    <button onclick="calcular()">Calcular</button>
+
+    <div id="resultado" style="display:none">
+        <h2>Resultado Investimento</h2>
+
+        <p>Valor Bruto: <span id="valorBruto"></span></p>
+        <p>Valor Líquido: <span id="valorLiquido"></span></p>
+    </div>
+
+    <script>
+
+        async function calcular() {
+
+            debugger;
+
+            var valorInicial = document.getElementById('valorInicial').value;
+            var prazoMeses = document.getElementById('prazoMeses').value;
+            var retorno = "";
+
+            if (valorInicial === "" || valorInicial <= "0") {
+                retorno = "Valor inicial deve ser positivo.\n";
+            }
+
+            if (prazoMeses === "" || prazoMeses <= 1) {
+                retorno += "Prazo deve ser maior que 1 mês.";
+            }
+
+            if (retorno != "") {
+                alert(retorno);
+                document.getElementById("resultado").style.display = "none";
+                return;
+            }
+
+            var response = await fetch('/api/cdb/calcular', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ valorInicial, prazoMeses })
+            });
+
+            if (response.ok) {
+                const result = await response.json();
+
+                document.getElementById('valorBruto').textContent = result.valorBruto.toFixed(2);
+                document.getElementById('valorLiquido').textContent = result.valorLiquido.toFixed(2);
+
+                document.getElementById("resultado").style.display = "block";
+            } else {
+                alert('Erro ao calcular CDB');
+                document.getElementById("resultado").style.display = "none";
+            }
+        }
+
+    </script>
+
+</body>
+</html>

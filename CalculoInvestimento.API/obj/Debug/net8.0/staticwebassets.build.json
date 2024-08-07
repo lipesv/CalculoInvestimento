@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "8MCHB6LjLUD548xeCaS+uSv9BOjmJX9Uc+ef5Hs7gxI=",
+  "Source": "CalculoInvestimento.API",
+  "BasePath": "_content/CalculoInvestimento.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CalculoInvestimento.API\\wwwroot",
+      "Source": "CalculoInvestimento.API",
+      "ContentRoot": "D:\\Projetos\\CalculoInvestimento\\CalculoInvestimento.API\\wwwroot\\",
+      "BasePath": "_content/CalculoInvestimento.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projetos\\CalculoInvestimento\\CalculoInvestimento.API\\wwwroot\\index.html",
+      "SourceId": "CalculoInvestimento.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projetos\\CalculoInvestimento\\CalculoInvestimento.API\\wwwroot\\",
+      "BasePath": "_content/CalculoInvestimento.API",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
