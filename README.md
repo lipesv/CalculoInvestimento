@@ -5,7 +5,7 @@ Esta solução foi criada para demonstrar a implementação do cálculo de inves
 
 Esta solução consiste em quatro projetos principais:
 
-1. **API**: Implementada usando .NET Core 8, esta API fornece endpoints para calcular o valor bruto e líquido de um investimento em CDB com base na fórmula fornecida e parâmetros fixos.
+1. **API**: Implementada usando .NET Core 8, esta API fornece um endpoint para calcular o valor bruto e líquido de um investimento em CDB com base na fórmula fornecida e parâmetros fixos.
 2. **Models**: Uma biblioteca de classes que contém as definições dos modelos de dados utilizados pela API e pelos serviços.
 3. **Services**: Uma biblioteca de classes responsável por implementar a lógica de cálculo do CDB, separando a lógica de negócios da camada de apresentação.
 4. **Tests**: Projeto de testes unitários que valida a lógica dos serviços utilizando a biblioteca Moq.
